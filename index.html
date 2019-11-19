@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title> Criptografador de mensagens </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<script type="text/javascript" src="./target/scala-2.12/scala-js-tutorial-fastopt.js"> </script>
+	<div id="inteface">
+		<header id="cabecalho"> 
+			<hgroup>
+				<h1> Criptografador instantâneo<h1>
+				<h2> New World Order</h2>
+			</hgroup>
+
+		</header>
+
+		<div id="corpo">
+			<div id="introducao">
+				<p> O termo <a href="https://pt.wikipedia.org/wiki/Criptografia" target="_blank"> <em> "Criptografia" </em> </a> surgiu da fusão das palavras gregas "Kryptós" e "gráphein", que significam "oculto" e "escrever", respectivamente. Trata-se de um conjunto de regras que visa codificar a informação de forma que só o emissor e o receptor consiga decifrá-la. </p>
+			</div>
+
+			<div id="criptografador">
+					Mensagem a ser criptografada: <br> 
+					<textarea id="myText" rows="7" cols="30" maxlength="300"></textarea> <br>
+					<button id="criptografar" onclick="cript()"> Criptografar </button>
+
+				</div>
+
+				<div id="descriptografador">
+					Mensagem criptografada: <br>
+					<textarea id="myText2" rows="7" cols="30" maxlength="700"></textarea> <br>
+					<button id="descriptografar" onclick="descript()"> Descriptografar </button>
+
+				</div>
+
+
+		</div>
+
+		<footer id="rodape">
+			<p> Copyright &copy; 2018 - by <a href="info.html" target="_self"> <em> Álysson Soares </em> &  <em> Felipe Bruce </em> </a> <br>
+		</footer>
+
+	</div>
+	
+</body>
+
+
+</html>

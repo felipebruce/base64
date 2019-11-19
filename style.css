@@ -1,0 +1,177 @@
+@charset "UTF-8";
+	
+	body{
+		text-align: center;
+		font-family: Arial, sans-serif;
+		color: black;
+		background-color: #dddddd;
+		width: 97%;
+		height:100%;
+		margin: auto;
+		background-image: url('_img/serasse.gif');
+		background-size: cover;
+		
+	}
+
+	p {
+		text-align: justify;
+		text-indent: 20px;
+	}
+
+	a{
+		color: #191970;
+		text-decoration: none;
+	}
+
+	div#interface {
+		margin: -20px auto 0px auto;
+		box-shadow: 0px 0px 10px black;
+		padding: 10px;
+		min-height:100%;
+    	position:relative;
+    	width:800px;
+	}
+
+	div#corpo {
+		overflow:hidden;
+	}
+
+	header#cabecalho {
+		border-bottom: 2px solid gray;
+		border-top: 2px solid gray;
+		text-align: center;
+		color: white;
+		background-image: url('_img/matrix.gif');
+		background-size: cover;
+
+	}
+
+
+	header#cabecalho h1{
+		font-family: Arial, sans-serif;
+		font-size: 30pt;
+		color: white;
+		text-shadow: 1px 1px 1px black;
+		padding: 0px;
+		margin-bottom: 0px;
+	}
+	
+	header#cabecalho h2{
+		font-family: Arial, sans-serif;
+		font-size: 15pt;
+		color: white;
+		padding: 0px;
+		margin-top: 5px;
+	}
+
+	header#cabecalho a{
+		text-decoration: none;
+		color: white;
+	}
+
+	header#cabecalho a:hover{
+		color: red;
+		transition: 1s;
+	}
+
+	textarea#myText {
+		font-size: 15pt;
+		border-style: none;
+		background-color: black;
+		color: #7CFC00;
+		resize: none;
+	}
+
+	div#criptografador {
+		margin-top: 20px;
+
+	}
+
+	button#criptografar {
+		font-size: 12pt;
+		margin-bottom: 10px;
+
+	}
+
+	textarea#myText2 {
+		font-size: 15pt;
+		border-style: none;
+		background-color: black;
+		color: #7CFC00;
+		resize: none;
+	}
+
+	button#descriptografar {
+		font-size: 12pt;
+	}
+
+	div#descriptografador {
+		margin-top: 20px;
+
+	}
+
+	footer#rodape {
+		background-color: black;
+		color: white;
+		bottom:0;
+		width:100%;
+		border-top: 2px solid gray;
+		margin-top: 20px;
+		background-image: url('_img/matrix.gif');
+		background-size: cover;
+		
+	}
+	
+	footer#rodape p{
+		text-align: center;
+	}
+
+	footer#rodape a:hover{
+		color: red;
+		transition: 1s;
+	}
+
+	footer#rodape a {
+		color: white;
+	}
+
+	/*CSS da aba Info */
+
+	figure.legenda-foto{
+		position: relative;
+		border: 4px solid white;
+		box-shadow: 2px 2px 4px black;
+
+	}
+
+	figure.legenda-foto img{
+		width: 20%;
+		height: 20%;
+		box-sizing: border-box;
+
+	}
+	
+	figure.legenda-foto figcaption{
+		opacity: 0;
+		position: absolute;
+		top: 0px;
+		background-color: rgba(0,0,0,0.6);
+		color: white;
+		box-sizing: border-box;
+		width: 100%;
+		height: 100%;
+		padding: 5px;
+		transition: opacity 1s;
+	}
+	
+	figure.legenda-foto:hover figcaption{
+		opacity: 4;
+	}
+
+	ul.competencias{
+		list-style: none;
+	}
+
+
+
+
